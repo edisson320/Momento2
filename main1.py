@@ -19,7 +19,7 @@ while (option != "N"):
                  pais=escarabajo.pais,equipo=escarabajo.equipo, tiempo=escarabajo.tiempo)
     lisCiclistas.append(ciclista)
 
-    option = input("¿Desea agregar otra escuderia? : (Y/N)")
+    option = input("¿Desea agregar otro Corredor? : (Y/N)")
     
     escarabajo.mejorTiempo(lisCiclistas)
     
